@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+
+
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <style>
+        .title {
+            font-size: 50;
+        }
+        
+        p {
+            display:inline-block;
+            color: white;
+            text-align: center;
+            font-family: sans-serif;
+        }
+
+        .enter{
+            color:#111111;
+        }
+        
+        .center {
+            width: 80%;
+            margin: 0 auto;
+        }
+        
+        .number {
+            height: 60;
+            width: 40;
+            background-color: white;
+            display: inline-block;
+            margin-left: 8;
+            border-radius: 5px;
+            border: 1px solid #111111;
+        }
+        
+        .selected {
+            border: 1px solid blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="title">
+        <p>enter your code</p>
+    </div>
+    <div class="center">
+        <div id="num0" class="number selected">
+            <p class="enter"></p>
+        </div>
+        <div id="num1" class="number">
+            <p class="enter"></p>
+        </div>
+        <div id="num2" class="number">
+            <p class="enter"></p>
+        </div>
+        <div id="num3" class="number">
+            <p class="enter"></p>
+        </div>
+        <div id="num4" class="number">
+            <p class="enter"></p>
+        </div>
+        <div id="num5" class="number">
+            <p class="enter"></p>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+
+</html>

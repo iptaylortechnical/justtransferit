@@ -2,10 +2,22 @@
   "name": "justtransferit",
   "version": "1.0.0",
   "description": "just transfer the freaking files.",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": ".\\node_modules\\.bin\\electron main.js"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Isaiah Taylor",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^1.3.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iptaylortechnical/justtransferit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iptaylortechnical/justtransferit/issues"
+  },
+  "homepage": "https://github.com/iptaylortechnical/justtransferit#readme"
 }
